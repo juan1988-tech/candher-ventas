@@ -1,0 +1,116 @@
+@import url('../../App.css');
+
+
+.header{
+    height: 6rem;
+}
+
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+}
+
+
+.header-logo h1{
+    font-size: 2.4rem;
+    color: var(--black-main-font);
+    font-weight: 500;
+}
+
+.header-logo h1 > span{
+    color: var(--blue-medium-tittle);
+}
+
+.header-logo p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.header-logo p > span{
+    color: var(--blue-medium-tittle);
+}
+
+.burguer-button{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.burguer-button .first-line,
+.burguer-button .second-line,
+.burguer-button .third-line{
+    height: .3rem;
+    width: 2.2rem;
+    background: var(--blue-medium-tittle);
+    border-radius: .15rem;
+    position: absolute;
+}
+
+.burguer-button .first-line{
+    top: 7px;
+    left: calc( 50% - 1.1rem );
+    transform-origin: 0%;
+    transform: rotate(0deg);
+    transition-duration:  1s;
+    transition-timing-function: ease;
+}
+
+.burguer-button .second-line{
+    top: calc( 50% - .15rem );
+    left: calc( 50% - 1.1rem );
+    transition-property: opacity;
+    transition-duration: .6s;
+    transition-timing-function: linear;
+}
+
+.burguer-button .third-line{
+    top: 2.1rem;
+    left: calc( 50% - 1.1rem );
+    transform-origin: 0%;
+    transform: rotate(0deg);
+    transition-duration:  1s;
+    transition-timing-function: ease;
+}
+
+/*estilos para el cambio de botons*/
+
+.burguer-button .first-line-change{
+    height: .3rem;
+    width: 2.7rem;
+    background: var(--blue-medium-tittle);
+    border-radius: .15rem;
+    position: absolute;
+    top: 7px;
+    left: calc( 50% - 1.1rem );
+    transform-origin: 0%;
+    transform: rotate(45deg);
+    transition-duration:  1s;
+    transition-timing-function: ease;
+}
+
+
+.burguer-button .second-line-change{
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+    transition-timing-function: linear;
+}
+
+
+.burguer-button .third-line-change{
+    height: .3rem;
+    width: 2.7rem;
+    background: var(--blue-medium-tittle);
+    border-radius: .15rem;
+    position: absolute;
+    top: 2.6rem;
+    left: calc( 50% - 1.1rem );
+    transform-origin: 0%;
+    transform: rotate(-45deg);
+    transition-duration:  1s;
+    transition-timing-function: ease;
+}

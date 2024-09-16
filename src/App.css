@@ -28,6 +28,11 @@ h1{
 }
 
 
+body{
+  background: var(--main-white-back);
+}
+
+
 /*
 .satisfy-regular {
   font-family: "Satisfy", cursive;
