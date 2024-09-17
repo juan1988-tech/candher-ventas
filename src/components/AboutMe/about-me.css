@@ -1,0 +1,73 @@
+@import url('../../App.css');
+
+.about-me-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-me-container h1{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--blue-medium-tittle);
+    margin-top: 1rem;
+}
+
+.about-me-story{
+    font-size: 1.6rem;
+}
+
+.about-me-target{
+    width: 24.3rem;
+    height: 12.5rem;
+    padding: 1rem;
+    margin-top: 2.4rem;
+}
+
+.about-me-time{
+    font-size: 1.4rem;
+    color: var(--second-gray);
+}
+
+.about-me-target .about-me-position{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.about-me-target .about-me-description{
+    font-size: 1.4rem;
+    color: var(--second-gray);
+}
+
+.third-job{
+    border: 1px solid var(--green-light);
+    align-self: flex-start;
+}
+
+.third-job .about-me-position{
+    color: var(--green-light)
+}
+
+.second-job{
+    border: 1px solid var(--medium-purple);
+    align-self: flex-end;
+}
+
+.second-job .about-me-position{
+    color: var(--medium-purple);
+}
+
+.first-job{
+    border: 1px solid var(--solid-pink);
+    align-self: flex-start;
+}
+
+.first-job .about-me-position{
+    color: var(--solid-pink);
+}
+
+.about-me-list-job{
+    display: flex;
+    flex-direction: column;
+}

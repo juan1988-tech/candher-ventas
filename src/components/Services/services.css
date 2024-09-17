@@ -1,0 +1,77 @@
+@import url('../../App.css');
+
+.services-item-manipulate{
+    width: 100%;
+    height: 25.8rem;
+    background-image: url('../../assets/services/chef-working-together-professional-kitchen.jpg'); 
+    background-size: cover;
+}
+
+.services-item-health{
+    width: 100%;
+    height: 25.8rem;
+    background-image: url('../../assets/services/doctor-taking-notes-clipboard-welllit-hospital-corridor-providing-ample-space-additional-content.jpg'); 
+    background-size: cover;
+}
+
+
+.services-item-quality{
+    width: 100%;
+    height: 25.8rem;
+    background-image: url('../../assets/services/standard-quality-control-collage.jpg'); 
+    background-size: cover;
+}
+
+.services-item-social-securtiy{
+    width: 100%;
+    height: 25.8rem;
+    background-image: url('../../assets/services/doctors-shaking-hands-with-each-other.jpg'); 
+    background-size: cover;
+}
+
+.services-item-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1.6rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-item-logo{
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: var(--blue-back-photos);
+    border: 1px solid var(--main-white-back);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item-image{
+    width: 2rem;
+    height: 2rem;
+}
+
+.service-item-description{
+    width: 100%;
+    height: 16.2rem;
+    background-color: var(--blue-back-photos);
+    border: 1px solid var(--main-white-back);
+    padding: 1rem;
+}
+
+.service-item-description h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--ligth-blue);
+}
+
+.service-item-description p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--main-white-back);
+    margin-top: 1.4rem;
+}

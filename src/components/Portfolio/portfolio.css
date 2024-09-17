@@ -1,0 +1,50 @@
+@import '../../App.css';
+
+.portfolio-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-container h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--blue-medium-tittle);
+    text-align: center;
+}
+
+.portfolio-card{
+    width: 100%;
+    height: 23rem;
+    background: var(--white-second-back);
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6rem;
+    padding: 1.6rem;
+}
+
+.portfolio-card-logo{
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background: var(--blue-medium-tittle);
+    border: 2px solid var(--ligth-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.portfolio-tittle{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--blue-medium-tittle);
+    margin-top: 1.4rem;
+}
+
+.portfolio-description{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--black-main-font);
+    margin-top: 1.4rem;
+}

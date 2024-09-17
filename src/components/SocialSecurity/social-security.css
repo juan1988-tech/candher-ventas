@@ -1,0 +1,107 @@
+@import url('../../App.css');
+
+.social-security{
+    background-color: var(--white-second-back);
+    margin-top: 1.6rem;
+    padding: 1.6rem 0;
+}
+
+.social-security-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.social-security-container h1{
+    font-size: 2.4rem;
+    color: var(--blue-medium-tittle);
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+.social-security-container h1 + p{
+    font-size: 1.6rem;
+    color: var(--black-main-font);
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.eps-images{
+    margin-top: 1.6rem;
+    display: grid;
+    grid-template: repeat(4, 9rem)/repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "compensar nuevaeps"
+                         "saludmia saludtotal"
+                         "sanitas sura"
+                         "famisanar capitalsalud"
+                         "coosalud coosalud";
+}                       
+
+.compensar-logo{
+    width: 10rem;
+    grid-area: compensar;
+}
+
+.nuevaeps-logo{
+    width: 10rem;
+    grid-area: nuevaeps;
+}
+
+.saludmia-logo{
+    width: 10rem;
+    grid-area: saludmia;
+}
+
+.saludtotal-logo{
+    width: 12rem;
+    grid-area: saludtotal;
+}
+
+.sanitas-logo{
+    width: 10rem;
+    grid-area: sanitas;
+}
+
+.sura-logo{
+    width: 10rem;
+    grid-area: sura;
+}
+
+.famisanar-logo{
+    width: 10rem;
+    grid-area: famisanar;
+}
+
+.capitalsalud-logo{
+    width: 10rem;
+    grid-area: capitalsalud;
+}
+
+.coosalud-logo{
+    width: 10rem;
+    grid-area: coosalud;
+}
+
+.social-security-contact{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    border: none;
+    background-color: var(--blue-medium-tittle);
+    height: 4.2rem;
+    width: 27.3rem;
+    color: var(--main-white-back);
+    border-radius: .6rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-security-contact > span{
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('../../assets/icons/white-whatsapp.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

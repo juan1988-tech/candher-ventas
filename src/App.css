@@ -1,12 +1,16 @@
 :root{
   --blue-medium-tittle: #217FCA;
+  --blue-second-tittle: #0E92F4;
   --black-main-font: #373636;
   --main-white-back: #FCFCFC;
   --blue-back-photos: rgba(4,57,99,.8);
   --ligth-blue: #6BC0FF;
   --second-gray: #565656;
   --white-second-back: #F8F7F7;
-  --gray-not-checked: rgba(106,106,106,.5)
+  --gray-not-checked: rgba(106,106,106,.5);
+  --green-light: #58F40E;
+  --medium-purple: #6A41FF;
+  --solid-pink: #E31A7A;
 }
 
 
@@ -21,11 +25,7 @@ html{
   font-family: "Quicksand", sans-serif;
 }
 
-h1{
-  font-family: "Satisfy", cursive; 
-  font-weight: 400;
-  font-style: normal; 
-}
+
 
 
 body{

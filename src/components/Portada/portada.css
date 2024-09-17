@@ -1,0 +1,69 @@
+@import '../../App.css';
+
+
+
+.portrait-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portrait .portrait-tittle{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-top: 8rem;
+    color: var(--black-main-font);
+    font-family: "Satisfy", cursive;
+}
+
+.portrait .portrait-tittle > span{
+    color: var(--blue-medium-tittle);
+}
+
+.portrait .portrait-description{
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--black-main-font);
+    font-weight: 500;
+}
+
+.portrait .portrait-description > span{
+    color: var(--blue-medium-tittle);
+    font-weight: 600;
+}
+
+.portrait .portrait-photo{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    background: #E2E2E2;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+}
+
+.portrait .portrait-contact{
+    width: 17rem;
+    height: 4.2rem;
+    border-radius: .6rem;
+    background: var(--blue-medium-tittle);
+    color: var(--main-white-back);
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portrait .portrait-whatsapp{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('../../assets/icons/white-whatsapp.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
