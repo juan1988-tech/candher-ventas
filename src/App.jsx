@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe/AboutMe'
 import MainCourse from './components/MainCourse/MainCourse'
 import Portfolio from './components/Portfolio/Portfolio'
 import SocialSecurity from './components/SocialSecurity/SocialSecurity'
+import Contact from './components/Contact/Contact'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
      <MainCourse/>
      <Portfolio/>
      <SocialSecurity/>
+     <Contact/>
     </>
   )
 }

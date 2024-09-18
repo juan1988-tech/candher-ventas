@@ -1,0 +1,108 @@
+@import url('../../App.css');
+
+.contact-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+}
+
+.contact-container h1{
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--blue-medium-tittle);
+}
+
+.contact-form{
+    width: 100%;
+    background: var(--white-second-back);
+    border-radius: .6rem;
+    margin-top: 1.6rem;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+}
+
+.contact-form-col label, .contact-form-col-2 label{
+    color: var(--blue-medium-tittle);
+    width: 100%;
+    display: block;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.contact-form-col input[type="text"]{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.2rem;
+    border: none;   
+}
+
+.contact-form-col-2 input[type="text"]{
+    width: 100%;
+    height: 6rem;
+    margin-top: 1.2rem;
+    border: none;
+}
+
+.contact-form-col-2 p{
+    width: 100%;
+    font-size: 1rem;
+    color: var(--ligth-blue);
+    font-weight: 600;
+}
+
+.form-options{
+    margin-top: 1.6rem;
+}
+
+.form-options p{
+    font-size: 1.6rem;
+    color: var(--blue-medium-tittle);
+    font-weight: 600;
+}
+
+.options-container{
+    margin-top: 2rem;
+    border: none;
+}
+
+.options-container-row{
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 100% 1fr;
+    width: 90%;
+}
+
+.options-container-row label{
+    color: var(--blue-second-tittle)
+}
+
+.options-container-row input[type="radio"]{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: var(--gray-not-checked);
+}
+
+.form-contact-button{
+    width: 17rem;
+    height: 4.2rem;
+    color: var(--main-white-back);
+    background: var(--blue-medium-tittle);
+    border-radius: .6rem;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form-contact-button span{
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('./src/assets/icons/white-whatsapp.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
