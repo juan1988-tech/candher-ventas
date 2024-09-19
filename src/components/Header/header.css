@@ -44,6 +44,7 @@
     height: 3rem;
     position: relative;
     cursor: pointer;
+    z-index: 3;
 }
 
 .burguer-button .first-line,

@@ -1,0 +1,58 @@
+.footer{
+    background: var(--white-second-back);
+}
+
+.footer-conntainer{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2.4rem;
+}
+
+.footer-tittle{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-size: 3.2rem;
+    text-align: center;
+    color: var(--black-main-font);
+}
+
+.footer-tittle > span{
+    color: var(--blue-medium-tittle);
+}
+
+.footer-description{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.footer-addtional-info{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.footer-location{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.footer-developer-links{
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.footer-developer-links a{
+    color: var(--blue-medium-tittle);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0.8rem;
+}   

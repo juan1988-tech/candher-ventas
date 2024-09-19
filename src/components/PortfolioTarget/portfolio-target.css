@@ -1,0 +1,76 @@
+@import '../../App.css';
+
+.portfolio-target{
+    width: 28.8rem;
+    min-width: 28.8rem;
+    min-height: 18.6rem;
+    border: 1px solid var(--blue-medium-tittle);
+    background: var(--main-white-back);
+    border-radius: .6rem;
+    padding: 1.2rem;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transform: translateX(0);
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+}
+
+.portfolio-target-change{
+    width: 28.8rem;
+    min-width: 28.8rem;
+    min-height: 18.6rem;
+    border: 1px solid var(--blue-medium-tittle);
+    background: var(--main-white-back);
+    border-radius: .6rem;
+    padding: 1.2rem;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transform: translateX(-150%);
+    transition-duration:  1.5s;
+    transition-timing-function: ease;
+}
+
+.portfolio-extensible{
+    font-size: 1.6rem;
+    height: 2.4rem;
+    margin-top: 5.2rem;
+    display: inline-flex;
+    color: var(--black-main-font);
+    font-weight: 500;
+    width: 25.7rem;
+    justify-content: space-between;
+}
+
+.portfolio-extensible > span{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../../assets/icons/expand_down.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-cellphone{
+    width: 16.5rem;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2.1rem;
+    border: 1px solid var(--blue-medium-tittle);
+    font-size: 1.6rem;
+    color: var(--blue-second-tittle);
+    margin: 0 auto;
+    margin-top: 2.4rem;
+}
+
+.portfolio-cellphone span{
+    background-image: url('../../assets/icons/blue-phone.svg');
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

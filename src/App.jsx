@@ -8,21 +8,24 @@ import MainCourse from './components/MainCourse/MainCourse'
 import Portfolio from './components/Portfolio/Portfolio'
 import SocialSecurity from './components/SocialSecurity/SocialSecurity'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import AppContextProvider from './context/AppContextProvider'
+
 
 function App() {
-
   return (
-    <>
-     <Header/>
-     <Portada/>
-     <WhastAppButton/>
-     <Services/>
-     <AboutMe/>
-     <MainCourse/>
-     <Portfolio/>
-     <SocialSecurity/>
-     <Contact/>
-    </>
+    <AppContextProvider>
+      <Header/>
+      <Portada/>
+      <WhastAppButton/>
+      <Services/>
+      <AboutMe/>
+      <MainCourse/>
+      <Portfolio/>
+      <SocialSecurity/>
+      <Contact/>
+      <Footer/>
+     </AppContextProvider>
   )
 }
 

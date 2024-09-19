@@ -95,6 +95,7 @@
     font-size: 1.6rem;
     align-items: center;
     margin: 0 auto;
+    margin-top: 1.6rem;
 }
 
 .form-contact-button span{
@@ -106,3 +107,19 @@
     background-repeat: no-repeat;
 }
 
+.fieldset-container{
+    overflow-x: auto;
+    height: 24rem;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--main-white-back);
+    width: .6rem;
+    border-radius: 0.3rem;
+}
+ 
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background-color: #E0E0E0;
+    border-radius: 0.3rem;
+}

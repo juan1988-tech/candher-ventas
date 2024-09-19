@@ -36,6 +36,7 @@ const customerId = useId();
             </article>
             <section className='form-options'>
                 <p>Deseo información en</p>
+            <div className='fieldset-container'>    
             <fieldset className='options-container'>
                 <article className='options-container-row'>
                     <label>Curso Manipulacion de alimentos</label>
@@ -78,6 +79,7 @@ const customerId = useId();
                     <input type="radio" name="options" value='afiliaciones-seguridad-social'/>
                 </article>
             </fieldset>
+            </div>
             </section>
             <button className='form-contact-button'>Contactar <span></span></button>
         </form>
