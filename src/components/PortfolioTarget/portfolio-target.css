@@ -45,12 +45,26 @@
     justify-content: space-between;
 }
 
-.portfolio-extensible > span{
+.portfolio-extensible .up-arrow{
     width: 2.4rem;
     height: 2.4rem;
     background-image: url('../../assets/icons/expand_down.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    transform: rotate(0deg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+}
+
+.portfolio-extensible .down-arrow{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../../assets/icons/expand_down.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-180deg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
 }
 
 .portfolio-cellphone{
@@ -67,10 +81,49 @@
     margin-top: 2.4rem;
 }
 
-.portfolio-cellphone span{
+.portfolio-cellphone .blue-phone{
     background-image: url('../../assets/icons/blue-phone.svg');
     width: 2rem;
     height: 2rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.portfolio-tray-container{
+    width: 100%;
+    height: 0rem;
+    transition: all 1.5s ease;
+    overflow: auto;
+}
+
+
+.portfolio-tray-container-shrink{
+    width: 100%;
+    height: 23.1rem;
+    transition: all 1.5s ease;
+    overflow: auto;
+}
+
+.portfolio-tray{
+    width: 100%;
+    height: 69.2rem;
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    color: var(--blue-medium-tittle);
+    font-weight: 500;
+}
+
+.portfolio-tray li{
+    width: 17rem;
+    align-self: center;
+    list-style: none;
+}
+
+
+.portfolio-tray li:not(:first-child){
+    margin-top: 4.2rem;
+}
+
+
