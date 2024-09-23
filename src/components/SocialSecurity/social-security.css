@@ -124,7 +124,7 @@
     }
 
     .eps-images{
-    grid-template: repeat(3, 9rem)/repeat(3, 1fr);
+    grid-template: repeat(3, 16rem)/repeat(3, 1fr);
     grid-template-areas: "compensar nuevaeps saludmia"
                         "saludtotal sanitas sura"
                         "famisanar capitalsalud coosalud"
@@ -164,5 +164,47 @@
 
     .coosalud-logo{
         width: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1133px){
+    .compensar-logo{
+        width: 16rem;
+    }
+
+    .nuevaeps-logo{
+        width: 16rem;
+    }
+
+    .saludmia-logo{
+        width: 16rem;
+    }
+    
+    .saludtotal-logo{
+        width: 16rem;
+    }
+
+    .sanitas-logo{
+        width: 16rem;
+    }
+
+    .sura-logo{
+        width: 16rem;
+    }
+
+    .famisanar-logo{
+        width: 16rem;
+    }
+
+    .capitalsalud-logo{
+        width: 16rem;
+    }
+
+    .coosalud-logo{
+        width: 16rem;
+    }
+
+    .social-security-contact{
+        margin-top: .6rem;
     }
 }

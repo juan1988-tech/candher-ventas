@@ -80,3 +80,13 @@
         height: 22.5rem;
     }
 }
+
+@media only screen and (min-width: 1133px){
+    .portfolio-grid{
+       grid-template: repeat(3,1fr)/repeat(3,1fr);
+    }
+
+    .portfolio-card:last-child{
+        grid-column: span 1;
+    }
+}

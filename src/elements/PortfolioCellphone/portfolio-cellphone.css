@@ -1,0 +1,30 @@
+.portfolio-cellphone-contact{
+    display: none;
+}
+
+@media only screen and (min-width: 1133px){
+    .portfolio-cellphone-contact{
+        width: 19.4rem;
+        height: 4.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 2.1rem;
+        border: 1px solid var(--blue-medium-tittle);
+        font-size: 1.6rem;
+        color: var(--blue-second-tittle);
+        position: absolute;
+        top: 0;
+        left: 29.1rem;
+    }
+    
+    .portfolio-cellphone-contact .blue-phone{
+        background-image: url('../../assets/icons/blue-phone.svg');
+        width: 2rem;
+        height: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+

@@ -97,3 +97,37 @@
         margin-top: 2rem;
     }
 }
+
+@media only screen and (min-width: 1133px){
+    .main-course{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 40.2rem;
+    }
+
+    .main-course-info-container h1{
+        text-align: left;
+    }
+
+    .main-course-info-container h3,
+    .main-course-modality,
+    .main-course-info-container h2{
+        margin-top: 1.4rem;
+    } 
+
+    .main-course-contact{
+        margin-top: 1.6rem;
+    }
+
+    
+    .main-course-info,
+    .main-course-photo{
+        height: 100%;
+    }
+
+    .main-course-info-container{
+        height: 100%;
+        padding: 1.6rem;
+        margin: 0;
+    }
+}

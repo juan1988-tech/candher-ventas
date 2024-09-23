@@ -122,8 +122,41 @@
 }
 
 
+.header-buttons{
+    display: none;
+}
+
 @media only screen and (min-width: 744px){
     .header-container{
         width: 95%;
+    }
+}
+
+@media only screen and (min-width: 1133px){
+    .header{
+        height: 8rem;
+    }
+
+    .header-container{
+        height: 90%;
+    }
+    .burguer-button{
+        display: none;
+    }
+
+    .header-buttons{
+        display: flex;
+        width: 48.6rem;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .header-logo h1{
+        font-size: 3.2rem;
+    }
+
+    .header-logo p{
+        font-size: 1.4rem;
     }
 }

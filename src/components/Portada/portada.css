@@ -115,3 +115,48 @@
         margin-top: 1.6rem;
     }
 }
+
+@media only screen and (min-width: 1133px){
+    .portrait-container{
+        width: 95%;
+        display: grid;
+        margin-top: 14rem;
+        grid-template: 7rem 10.6rem 12.5rem 6.7rem/repeat(2,1fr);
+        grid-template-areas: "portrait-tittle portrait-photo"
+                             "portrait-description portrait-photo"
+                             "portrait-role portrait-photo"
+                             "portrait-contact .";
+        align-items: center;
+    }
+
+    .portrait .portrait-tittle{
+        margin: 0;
+        font-size: 4.8rem;
+        text-align: left;
+        grid-area: portrait-tittle;
+    }
+
+    .portrait .portrait-role{
+        margin-top: 0;
+        text-align: left;
+        font-size: 2rem;
+        grid-area: portrait-role;
+    }
+
+    .portrait .portrait-description{
+        font-size: 2rem;
+        text-align: left;
+        margin-top: 0;
+        grid-area: portrait-description;
+    }
+
+    .portrait .portrait-photo{
+        width: 27rem;
+        height: 27rem;
+        grid-area: portrait-photo;
+    }
+
+    .portrait .portrait-contact{    
+        grid-area: portrait-contact;
+    }
+}   

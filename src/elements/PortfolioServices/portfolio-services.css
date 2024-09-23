@@ -1,0 +1,89 @@
+@import url('../../App.css');
+
+.portfolio-services{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1133px){
+    .portfolio-services{
+        width: 28rem;
+        height: 4.2rem;
+        border-radius: .6rem;
+        border: 1px solid var(--blue-medium-tittle);
+        display: block;
+        justify-content: space-around;
+        background: var(--main-white-back);
+        transition-duration: 1.5s;
+        transition-timing-function: ease;
+        padding: 1rem;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+    }
+
+    .portfolio-services-change{
+        width: 28rem;
+        height: 33rem;
+        border-radius: .6rem;
+        border: 1px solid var(--blue-medium-tittle);
+        display: block;
+        justify-content: space-around;
+        background: var(--main-white-back);
+        transition-duration: 1.5s;
+        transition-timing-function: ease;
+        padding: 1rem;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+    }   
+
+    .portfolio-services .portfolio-extensible{
+        font-size: 1.6rem;
+        height: 2.4rem;
+        display: inline-flex;
+        color: var(--black-main-font);
+        font-weight: 500;
+        width: 25.7rem;
+        justify-content: space-between;
+        margin-top: 0;
+        margin: 0 auto;
+    }
+
+    .portfolio-services .portfolio-tray-container{
+        width: 98%;
+        height: 0rem;
+        transition: all 1.5s ease;
+        overflow: auto;
+    }
+
+    .portfolio-services .portfolio-tray-container-shrink{
+        width: 98%;
+        margin-top: 2rem;
+        height: 25rem;
+        transition: all 1.5s ease;
+        overflow: auto;
+    }
+    
+    .portfolio-services .portfolio-tray{
+        width: 100%;
+        height: 69.2rem;
+        margin-top: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        color: var(--blue-medium-tittle);
+        font-weight: 500;
+    }
+
+    .portfolio-services .portfolio-tray li{
+        width: 17rem;
+        align-self: center;
+        list-style: none;
+    }
+    
+    .portfolio-services .portfolio-tray li:not(:first-child){
+        margin-top: 4.2rem;
+    }
+    
+}

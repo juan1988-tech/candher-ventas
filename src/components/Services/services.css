@@ -111,3 +111,25 @@
         width: 100%;
     }
 }
+
+
+@media only screen and (min-width: 1133px){
+    .services{
+        margin-top: 6.5rem;
+        grid-template-rows: repeat(2,32.85rem);
+    }
+
+    .service-item-description{
+        width: 37.6rem;
+    }
+
+    .service-item-logo{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .service-item-image{
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+}
