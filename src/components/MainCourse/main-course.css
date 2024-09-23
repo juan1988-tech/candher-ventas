@@ -38,6 +38,13 @@
     font-weight: 400;
 }
 
+.main-course-modality{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 1.6rem;
+}
+
 .main-course-info-container h2{
     color: var(--blue-medium-tittle);
     text-align: center;
@@ -52,7 +59,7 @@
     background: var(--blue-medium-tittle);
     color: var(--main-white-back);
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
     border-radius: .6rem;
     border: none;
@@ -60,6 +67,7 @@
     justify-content: space-evenly;
     margin: 0 auto;
     margin-top: 2.4rem;
+    font-family: "Quicksand", sans-serif;
 }
 
 .main-course-contact span{
@@ -69,4 +77,14 @@
     background-image: url('../../assets/icons/white-whatsapp.svg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 568px){
+    .main-course-info-container h1{
+        font-size: 2.8rem;
+    }
+
+    .main-course-info-container h1 + p{
+        font-size: 2rem;
+    }
 }

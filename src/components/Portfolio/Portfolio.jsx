@@ -16,6 +16,7 @@ const Portfolio = () => {
     <section className='portfolio'>
       <div className='portfolio-container'>
         <h1>Portafolio de Servicios de salud ocupacional</h1>
+        <section className='portfolio-grid'>
         <PortfolioCard 
         logoCard={portafolioSaludOcupacional}
         portfolioTittle='Asesoría en seguridad y salud en el trabajo'
@@ -61,6 +62,7 @@ const Portfolio = () => {
         portfolioTittle='Afiliaciones a seguridad social'
         portfolioDescription='Afíliese a seguridad social cómo independiente y contratista, y obtenga las coberturas de ARL, EPS  y PENSIÓN'
         />
+        </section>
       </div>
     </section>
   )

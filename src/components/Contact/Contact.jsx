@@ -8,32 +8,35 @@ const customerId = useId();
     <section className='contact'>
       <div className='contact-container'>
         <h1>Contáctenos</h1>
+        <p>Permítamos contactarle para ofrecerle la mejor asesoría en documentación y cumplimiento de normas sanitarias, ambientales y de salud</p>
         <form id={customerId} className='contact-form'>
-            <article className='contact-form-col'>
+            <section className='contact-form-container'>
+            <article className='contact-form-col form-name'>
                 <label>Nombre</label>
                 <input type="text" name="nombre"/>
             </article>
-            <article className='contact-form-col'>
+            <article className='contact-form-col form-surname'>
                 <label>Apellido</label>
                 <input type="text" name="apellido"/>
             </article>  
-            <article className='contact-form-col-2'>
+            <article className='contact-form-col-2 form-business'>
                 <label>Razon social</label>
                 <p>&#40;Si desea cotizar nuestros servicios para una empresa&#41;</p>
                 <input type="text" name="empresa"/>
             </article>
-            <article className='contact-form-col'>
+            <article className='contact-form-col form-email'>
                 <label>Correo</label>
                 <input type="text" name="correo"/>
             </article>
-            <article className='contact-form-col'>
+            <article className='contact-form-col form-city'>
                 <label>Ciudad o municipio</label>
-                <input type="text" name="correo"/>
+                <input type="text" name="city"/>
             </article>
-            <article className='contact-form-col'>
+            <article className='contact-form-col form-address'>
                 <label>Dirección <span className='optional'>&#40;opcional&#41;</span></label>
-                <input type="text" name="correo"/>
+                <input type="text" name="address"/>
             </article>
+            </section>
             <section className='form-options'>
                 <p>Deseo información en</p>
             <div className='fieldset-container'>    

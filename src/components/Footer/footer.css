@@ -1,5 +1,6 @@
 .footer{
     background: var(--white-second-back);
+    margin-top: 1.6rem;
 }
 
 .footer-conntainer{
@@ -55,4 +56,17 @@
     font-weight: 700;
     text-decoration: none;
     margin-top: 0.8rem;
-}   
+} 
+
+@media only screen and (min-width: 568px){
+    .footer-developer-links{
+        flex-direction: row;
+        width: 30.2rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer-developer-links a{
+        margin-top: 0rem;
+    }
+}

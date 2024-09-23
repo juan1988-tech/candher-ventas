@@ -1,5 +1,9 @@
 @import url('../../App.css');
 
+.services{
+    margin-top: 1.6rem;
+}
+
 .services-item-manipulate{
     width: 100%;
     height: 25.8rem;
@@ -74,4 +78,15 @@
     font-weight: 400;
     color: var(--main-white-back);
     margin-top: 1.4rem;
+}
+
+@media only screen and (min-width: 568px){
+    .service-item-description{
+        height: 9.8rem;
+        width: 48.3rem;
+    }
+
+    .service-item-description p{
+        margin-top: .4rem;
+    }
 }

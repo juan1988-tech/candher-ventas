@@ -48,3 +48,22 @@
     color: var(--black-main-font);
     margin-top: 1.4rem;
 }
+
+@media only screen and (min-width: 568px){
+    .portfolio-grid{
+        display: grid;
+        grid-template: repeat(5,1fr)/repeat(2,1fr);
+        gap: 1.6rem;
+    }
+
+    .portfolio-card{
+        margin-top: 0;
+        height: 24.8rem;
+        width: 26rem;
+    }
+
+    .portfolio-card:last-child{
+        grid-column: span 2; 
+        justify-self: center;
+    }
+}

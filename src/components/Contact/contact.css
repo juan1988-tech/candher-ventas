@@ -12,6 +12,10 @@
     color: var(--blue-medium-tittle);
 }
 
+.contact-container h1 + p{
+    font-size: 1.4rem;
+}
+
 .contact-form{
     width: 100%;
     background: var(--white-second-back);
@@ -123,3 +127,69 @@
     background-color: #E0E0E0;
     border-radius: 0.3rem;
 }
+
+@media only screen and (min-width: 568px){
+    .contact-container h1{
+        font-size: 2.8rem;
+    }
+
+    .contact-container h1 + p{
+        font-size: 1.6rem;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+
+    .contact-form-container{
+        display: grid;
+        grid-template: repeat(5.4rem,1fr)/repeat(2,1fr);
+        gap: 1rem;
+        grid-template-areas:"form-name form-surname"
+                            "form-business form-business"
+                            "form-email form-email"
+                            "form-city form-address";
+    }
+
+    .form-name{
+        grid-area: form-name;
+    }
+
+    .form-surname{
+        grid-area: form-surname;
+    }
+
+    .form-business{
+        grid-area: form-business;
+    }
+
+    .form-email{
+        grid-area: form-email;
+    }
+
+    .form-city{
+        grid-area: form-city;
+    }
+
+    .form-address{
+        grid-area: form-address;
+    }
+
+    .fieldset-container{
+        overflow-y: clip;
+    }
+
+    .options-container{
+        display: grid;
+        grid-template: repeat(5,1fr)/repeat(2,1fr);
+        font-size: 1.4rem;
+        gap: 1rem;
+    }
+
+    .options-container label{
+        width: 20rem;
+    }
+}
+
+
+

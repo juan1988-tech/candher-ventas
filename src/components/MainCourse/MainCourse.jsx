@@ -14,6 +14,7 @@ const MainCourse = () => {
                 DSP-SDVSP-AL-CMA-086-05-21 emitida por la secretaría de salud de la Gobernación de Cundinamarca
             </p>
             <h3>10 horas de intensidad</h3>
+            <p className='main-course-modality'>Modalidad Virtual o presencial</p>
             <h2>$40.000</h2>
             <button className='main-course-contact'>Quiero Saber más del Curso &nbsp;<span></span></button>
         </div>

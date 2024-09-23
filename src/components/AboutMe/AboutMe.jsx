@@ -1,7 +1,7 @@
 import React from 'react';
 import './about-me.css';
 
-const AboutMeTarget = ({number,classNewName,classsPositionName}) =>{
+const AboutMeTarget = ({number,classNewName}) =>{
     return(
         <article className={classNewName}>
         <p className='about-me-time'>2016 - 2022</p>
@@ -23,6 +23,10 @@ const AboutMe = () => {
             <AboutMeTarget classNewName='about-me-target third-job' number='3'/>
             <AboutMeTarget classNewName='about-me-target second-job' number='2'/>
             <AboutMeTarget classNewName='about-me-target first-job' number='1'/>
+            <article className='about-me-lateral-bar'>
+              <div className='about-me-blue-ball'></div>
+              <div className='about-me-purple-ball'></div>
+            </article>
         </section>
        </div>  
     </section>

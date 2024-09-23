@@ -10,8 +10,8 @@
     padding: 1.2rem;
     z-index: 1;
     position: fixed;
-    top: 0;
-    right: -100%;
+    top: .6rem;
+    right: -28.8rem;
     transform: translateX(0);
     transition-duration: 1.5s;
     transition-timing-function: ease;
@@ -27,9 +27,9 @@
     padding: 1.2rem;
     z-index: 1;
     position: fixed;
-    top: 0;
-    right: -100%;
-    transform: translateX(-150%);
+    top: .6rem;
+    right: -28.8rem;
+    transform: translateX(-30.4rem);
     transition-duration:  1.5s;
     transition-timing-function: ease;
 }

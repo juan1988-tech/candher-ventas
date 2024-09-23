@@ -8,6 +8,7 @@ const firstLineReference = useRef(null);
 const secondLineReference = useRef(null);
 const thirdLineReference = useRef(null);
 
+console.log(firstLineReference.current);
 //referencia para la interfaz de portafolio
 const portfolioRef = useRef(null);
 

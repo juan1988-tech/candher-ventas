@@ -1,7 +1,5 @@
 @import '../../App.css';
 
-
-
 .portrait-container{
     width: 90%;
     margin: 0 auto;
@@ -11,7 +9,7 @@
     text-align: center;
     font-size: 2.8rem;
     font-weight: 500;
-    margin-top: 8rem;
+    margin-top: 7.4rem;
     color: var(--black-main-font);
     font-family: "Satisfy", cursive;
 }
@@ -21,15 +19,21 @@
 }
 
 .portrait .portrait-description{
-    margin-top: 1.6rem;
+    margin-top: 1.2rem;
     font-size: 1.6rem;
     color: var(--black-main-font);
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.portrait .portrait-description > span{
+.portrait .portrait-description  span{
     color: var(--blue-medium-tittle);
     font-weight: 600;
+}
+
+
+.portrait .portrait-role{
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
 }
 
 .portrait .portrait-photo{
@@ -38,7 +42,7 @@
     border-radius: 50%;
     background: #E2E2E2;
     margin: 0 auto;
-    margin-top: 3.2rem;
+    margin-top: 1.2rem;
 }
 
 .portrait .portrait-contact{
@@ -49,7 +53,7 @@
     color: var(--main-white-back);
     display: block;
     margin: 0 auto;
-    margin-top: 3.2rem;
+    margin-top: 1.2rem;
     border: none;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
@@ -66,4 +70,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
+}
+
+@media only screen and (min-width: 568px) {
+    .portrait .portrait-description{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .portrait .portrait-role{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .portrait .portrait-photo{
+        margin-top: 4.6rem;
+    }
 }

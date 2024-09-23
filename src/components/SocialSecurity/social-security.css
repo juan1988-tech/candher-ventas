@@ -95,6 +95,8 @@
     border-radius: .6rem;
     align-items: center;
     justify-content: space-evenly;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.4rem;
 }
 
 .social-security-contact > span{
@@ -104,4 +106,63 @@
     background-image: url('../../assets/icons/white-whatsapp.svg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 568px){
+    .social-security-container{
+        width: 95%;
+    }
+
+    .social-security-container h1{
+        margin-top: 0;
+        font-size: 2.8rem;
+    }
+
+    .social-security-container h1 + p{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .eps-images{
+    grid-template: repeat(3, 9rem)/repeat(3, 1fr);
+    grid-template-areas: "compensar nuevaeps saludmia"
+                        "saludtotal sanitas sura"
+                        "famisanar capitalsalud coosalud"
+    }
+
+    .compensar-logo{
+        width: 12rem;
+    }
+
+    .nuevaeps-logo{
+        width: 12rem;
+    }
+
+    .saludmia-logo{
+        width: 12rem;
+    }
+    
+    .saludtotal-logo{
+        width: 12rem;
+    }
+
+    .sanitas-logo{
+        width: 12rem;
+    }
+
+    .sura-logo{
+        width: 12rem;
+    }
+
+    .famisanar-logo{
+        width: 12rem;
+    }
+
+    .capitalsalud-logo{
+        width: 12rem;
+    }
+
+    .coosalud-logo{
+        width: 12rem;
+    }
 }
