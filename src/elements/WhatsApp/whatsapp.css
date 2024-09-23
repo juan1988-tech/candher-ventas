@@ -17,3 +17,11 @@
         left: 89%;
     }    
 }
+
+
+@media only screen and (min-width: 744px){
+    .whatsapp{
+        top: 48.9rem;
+        left: 90%;
+    }
+}

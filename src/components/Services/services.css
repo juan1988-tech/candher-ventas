@@ -90,3 +90,24 @@
         margin-top: .4rem;
     }
 }
+
+@media only screen and (min-width: 744px){
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,23.68rem);
+    }
+
+    .services-item-manipulate,
+    .services-item-health,
+    .services-item-quality,
+    .services-item-social-securtiy   
+    {
+        height: 100%;
+    }
+
+    .service-item-description{
+        height: 11.8rem;
+        width: 100%;
+    }
+}
