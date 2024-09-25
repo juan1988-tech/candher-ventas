@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
     <footer className='footer'>
         <div className='footer-conntainer'>
         <h1 className='footer-tittle'>Candy <span>Hernandez</span></h1>
-        <p className='footer-description'>ASESORA COMERCIAL EN NORMATIVA SANITARIA, AMBIENTAL Y DE SALUD</p>
+        <p className='footer-description'>ASESORA COMERCIAL EN NORMATIVA SANITARIA, AMBIENTAL Y DE SALUD OCUPACIONAL</p>
 
         <p className='footer-addtional-info'>candyhernandez@gmail.com | 3203434336</p>
         <p className='footer-location'>{currentYear} Bogotá, Colombia</p>

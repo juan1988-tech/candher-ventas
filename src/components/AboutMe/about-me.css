@@ -192,4 +192,30 @@
     }
 }
 
+@media only screen and (min-width: 1133px){
+    .about-me-container{
+        width: 80.93%;
+    }
 
+    .about-me-container h1{
+        font-size: 3.2rem;
+    }
+
+    .about-me-story{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .about-me-list-job{
+        width: 54.8rem;
+        margin: 0 auto;
+        margin-top: 2.4rem;
+        display: grid;
+        grid-template: repeat(3, 1fr)/auto 5rem auto;
+        grid-template-areas: "third-job about-me-lateral-bar ."
+                             ". about-me-lateral-bar second-job"
+                             "first-job about-me-lateral-bar .";
+        justify-items: center;
+    }
+}

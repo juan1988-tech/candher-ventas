@@ -194,8 +194,22 @@
 }
 
 @media only screen and (min-width: 1133px){
-    .contact-container h1 + p{
+    .contact-container{
         max-width: 55.6rem;
     }
 }
 
+
+@media only screen and (min-width: 1280px){
+    .options-container{
+        font-size: 1.6rem;
+    }
+
+    .fieldset-container {
+        height: 32rem;
+    }
+
+    .contact-form,.form-options p:first-child{
+        font-size: 1.8rem;
+    }
+}

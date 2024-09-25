@@ -208,3 +208,22 @@
         margin-top: .6rem;
     }
 }
+
+@media only screen and (min-width: 1280px){
+    .social-security-container h1{
+        font-size: 3.2rem;
+    }
+    .eps-images{
+        width: 103.6rem;
+        margin: 0 auto;
+    }
+
+    .social-security-contact{
+        font-size: 1.6rem;
+    }
+
+    .social-security-container h1 + p{
+        font-size: 2rem;
+    }
+}
+

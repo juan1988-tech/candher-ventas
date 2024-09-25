@@ -27,4 +27,10 @@
     }
 }
 
+@media only screen and (min-width: 1133px){
+    .portfolio-cellphone-contact{
+        top: 1.2rem;
+    }
+}
+
 

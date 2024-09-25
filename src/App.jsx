@@ -10,9 +10,11 @@ import SocialSecurity from './components/SocialSecurity/SocialSecurity'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import AppContextProvider from './context/AppContextProvider'
+import { useEffect,useState } from 'react'
 
 
 function App() {
+
   return (
     <AppContextProvider>
       <Header/>

@@ -85,5 +85,11 @@
     .portfolio-services .portfolio-tray li:not(:first-child){
         margin-top: 4.2rem;
     }
-    
+}
+
+@media only screen and (min-width: 1280px){
+    .portfolio-services,
+    .portfolio-services-change{
+        top: 1.2rem;
+    }
 }
